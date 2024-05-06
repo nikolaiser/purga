@@ -62,7 +62,7 @@ Arguments:
 
 Options:
   -i, --input <INPUT>  Flake input that will be used to provide the arguments [default: purgaArgs]
-  -a, --arg <ARGS>     Key-value pairs to pass to the flake. Format is '--arg name1=value1 --arg name2=value2'
+  -a, --arg <ARGS>     Key-value pairs to pass to the flake. Format is '--arg name1=value1 --arg name2=value2' If you provide the same key multiple times it will be passed to the flake as an array
   -h, --help           Print help
   -V, --version        Print version
 ```
